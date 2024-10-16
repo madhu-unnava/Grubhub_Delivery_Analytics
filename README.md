@@ -14,12 +14,6 @@ The Grubhub Analytics Project leverages various data science techniques to addre
 - **Geographical Impact**: Analyze how distance from the restaurant affects delivery times, fees, and customer satisfaction.
 - **Machine Learning Models**: Explore the potential of clustering and classification models to predict cuisine popularity and optimize marketing efforts.
 
-## 📊 Data Summary
-
-- **Source**: Grubhub restaurant data collected from Kaggle.
-- **Size**: The dataset consists of 8,088 rows and 26 variables, including delivery times, restaurant details, review ratings, fees, and geographical data.
-- **Time Period**: Data collected on April 25, 2022, covering various U.S. cities and states.
-
 ### Key Variables:
 - **Delivery Time**: The time taken for each order to be delivered.
 - **Cuisine Type**: The type of cuisine offered by the restaurant (e.g., American, Asian).
@@ -29,12 +23,12 @@ The Grubhub Analytics Project leverages various data science techniques to addre
 
 ## 🧑‍💻 Methodology
 
-### ETL Process:
-1. **Data Extraction**: Data was sourced from Kaggle’s public dataset and imported into a Jupyter Notebook environment.
-2. **Data Transformation**: Performed extensive data cleaning, including adding columns for cuisine types, grouping times for order analysis, and removing redundant variables like raw delivery time.
-3. **Data Loading**: Final cleaned dataset loaded into PostgreSQL for structured querying and further analysis.
+- **Data Extraction:** The dataset was extracted from relevant sources and imported into a Jupyter Notebook environment for further processing.
+- **Data Cleaning and Preparation:** The dataset underwent cleaning to handle missing values, remove duplicates, and correct data inconsistencies. Additional features were engineered, such as categorizing cuisine types and grouping delivery times for better analysis.
+- **Data Transformation:** Transformations were applied to ensure the dataset was in an analysis-ready format. This included feature engineering and restructuring data to enhance its usability for subsequent analyses.
 
 ### Analytical Methods Used:
+
 - **Descriptive Statistics**:
   - Used to summarize delivery times, review ratings, and order frequencies across states and subscription statuses.
   - **Tools**: Python (`Pandas`, `NumPy`), R, and Excel.
